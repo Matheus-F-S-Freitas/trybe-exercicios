@@ -15,11 +15,15 @@
   
   .baloon {
     position: absolute;
+    left: 700px;
     z-index: 3;
   }
   
   .speach {
     font-size: 25px;
+    right: 950px;
+    top: 125px;
+    position: absolute;
     z-index: 4;
   }
   
