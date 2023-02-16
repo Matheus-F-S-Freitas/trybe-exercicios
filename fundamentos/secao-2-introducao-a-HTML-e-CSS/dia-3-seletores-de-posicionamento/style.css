@@ -1,18 +1,3 @@
-.head h1, p {
-  text-align: center;
-}
-
-.head ol {
-
-  text-align: center;
-  list-style: none;
-}
-
-.head ol :hover {
-  background-color: hsl(10, 100%, 80%);
-
-}
-
-.head  ol :active{
-  color: rgb(254, 0, 0);
+div :hover{
+  border: 6px solid black;
 }
