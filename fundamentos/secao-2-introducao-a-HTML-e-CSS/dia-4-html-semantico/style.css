@@ -20,6 +20,7 @@ h1 {
     width: 300px;
     list-style: none;
     display: inline-block;
+    margin-left: 620px;
   }
 
   .third {
@@ -30,5 +31,17 @@ h1 {
     width: 300px;
     list-style: none;
     display: inline-block;
+}
+
+.premiacao {
+    text-align: center;
+}
+
+.premiacao li{
+    display: inline-block;
+}
+
+.premiacao h3{
+    text-align: center;
 }
     
