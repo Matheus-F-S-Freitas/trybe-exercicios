@@ -3,9 +3,9 @@ V Percorra o array imprimindo todos os valores contidos nele com a função cons
 
 V Some todos os valores contidos no array e imprima o resultado.
 
-X Calcule e imprima a média aritmética dos valores contidos no array.
+V Calcule e imprima a média aritmética dos valores contidos no array.
+     A média aritmética é o resultado da soma de todos os elementos dividido pelo número total de elementos.
 
-X A média aritmética é o resultado da soma de todos os elementos dividido pelo número total de elementos.
 X Com base no código que acabou de gerar, faça com que: caso o valor final seja maior que 20, imprima a mensagem “Valor maior que 20”; e, caso não seja maior que 20, imprima a mensagem “Valor menor ou igual a 20”.
 
 X Utilizando for, descubra o maior valor contido no array e imprima-o.
@@ -28,5 +28,10 @@ for (let index = 0; index < numbers.length; index += 1){
     some += numbers[index]
     
 }
-console.log(numbers.length)
-console.log(some / numbers.length);
+let media = some / numbers.length;
+if(media > 20){
+    console.log("Valor maior que 20")
+}
+else if(media <= 20){
+    console.log("Valor menor ou igual a 20")
+}
