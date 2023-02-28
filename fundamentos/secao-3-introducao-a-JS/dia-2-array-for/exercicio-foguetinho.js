@@ -10,24 +10,21 @@ V Com base no código que acabou de gerar, faça com que: caso o valor final sej
 
 V Utilizando for, descubra o maior valor contido no array e imprima-o.
 
-X Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
+V *Conseguir com ajuda do gabarito* Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “Nenhum valor ímpar encontrado”.
 
-X Utilizando for, descubra o menor valor contido no array e imprima-o.
+V *Consegui utilizando o gabarito* Utilizando for, descubra o menor valor contido no array e imprima-o.
 
-X Utilizando for, crie um array que vá de 1 a 25 e imprima o resultado.
+V Utilizando for, crie um array que vá de 1 a 25 e imprima o resultado.
 
-X Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
+V Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
 
 */
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+//let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-let some = 0;
+let empty = [];
 
-for (let index = 0; index < numbers.length; index += 1){//percorrerá numbers
-    if(numbers[index] > some){
-        some = numbers[index]
-    }
-    
+for (let index = 1; index <= 25; index += 1) {
+    empty.push(index / 2)
 }
-console.log(some)
+console.log(empty)
