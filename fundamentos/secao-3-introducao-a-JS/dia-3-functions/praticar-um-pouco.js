@@ -1,5 +1,5 @@
 function bank(saldo){
-    saldo = saldo + 250
+    saldo = (saldo + 250 - 100) * (saldo * 0.01)
     return saldo
 }
 
