@@ -17,12 +17,3 @@ Foi a melhor do mundo em ${player["bestInTheWorld"]}`);
 
 // Adicione ao objeto a chave bestInTheWorld por meio da sintaxe meuObjeto.chave = valor e atribua a essa chave um array que contenha as datas em que a jogadora Marta foi considerada a melhor do mundo.
 
-let car = {
-    type: 'Fiat',
-    model: '500',
-    color: 'white',
-  };
-  
-  for (let index in car) {
-    console.log(car);
-  }
