@@ -18,13 +18,23 @@
 // Copie o código a seguir e rode-o para verificar sua saída.
 
 // Executando esse código, recebe-se um erro `TypeError: Assignment to constant variable.`
-const pessoa = {
-    nome: 'Henri',
-    idade: 20
-}
-    pessoa["nome"] = 'Luna'
-    pessoa["idade"] = '19'// Altere essa estrutura para corrigir o erro.
-console.log('Nome:', pessoa.nome);
-console.log('Idade:', pessoa.idade);
+// const pessoa = {
+//     nome: 'Henri',
+//     idade: 20
+// }
+// pessoa["nome"] = 'Luna'
+// pessoa["idade"] = '19'// Altere essa estrutura para corrigir o erro.
+// console.log('Nome:', pessoa.nome);
+// console.log('Idade:', pessoa.idade);
+
+//*CONCLUÍDO*
+
+
+// Modifique a variável para que não ocorra Erro.
+// Copie o código a seguir e rode-o para verificar sua saída.
+
+let favoriteFood = 'Lasanha';
+favoriteFood = 'Hambúrguer';
+console.log(favoriteFood);
 
 //*CONCLUÍDO*
