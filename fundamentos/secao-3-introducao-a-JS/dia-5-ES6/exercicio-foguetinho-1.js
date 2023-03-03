@@ -85,11 +85,25 @@
 // 🚀 Transforme a função nomeCompleto em uma arrow function.
 // Copie o código a seguir.
 
-nomeCompleto = (nome, sobrenome) =>
-    `${nome} ${sobrenome}`
-  
-  let nome = 'Ivan';
-  let sobrenome = 'Pires';
-  console.log(nomeCompleto(nome, sobrenome));
+        // nomeCompleto = (nome, sobrenome) =>
+        //     `${nome} ${sobrenome}`
+        
+        //   let nome = 'Ivan';
+        //   let sobrenome = 'Pires';
+        //   console.log(nomeCompleto(nome, sobrenome));
+
+//*CONCLUÍDO*
+
+
+
+// Altere a expressão if/else utilizando ternary operator.
+
+// Copie o código a seguir.
+
+let speed = 130;
+const speedCar = (speed) => (
+  speed >= 120 ? `Você ultrapassou o limite de velocidade` : `Você está na velocidade permitida`
+  )
+console.log(speedCar(speed));
 
 //*CONCLUÍDO*
