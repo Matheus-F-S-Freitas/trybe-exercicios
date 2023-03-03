@@ -74,7 +74,22 @@
 // 🚀 Transforme a função hello em uma arrow function.
 // Copie o código a seguir.
 
-hello = (nome) =>
-     `Olá, ${nome}!`
-let nome = 'Ivan';
-console.log(hello(nome));
+        // hello = (nome) =>
+        //      `Olá, ${nome}!`
+        // let nome = 'Ivan';
+        // console.log(hello(nome));
+
+//*CONCLUÍDO*
+
+
+// 🚀 Transforme a função nomeCompleto em uma arrow function.
+// Copie o código a seguir.
+
+nomeCompleto = (nome, sobrenome) =>
+    `${nome} ${sobrenome}`
+  
+  let nome = 'Ivan';
+  let sobrenome = 'Pires';
+  console.log(nomeCompleto(nome, sobrenome));
+
+//*CONCLUÍDO*
