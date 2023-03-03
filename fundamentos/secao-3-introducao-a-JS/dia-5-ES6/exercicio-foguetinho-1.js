@@ -4,12 +4,12 @@
 
 // Copie o código a seguir e rode-o para verificar sua saída.
 
-// function imprimeIdade() {
-//     for (let idade = 30; idade <= 40; idade += 1) {
-//       console.log('Idade dentro do for:', idade)
-//     }
-//   }
-//   imprimeIdade()
+        // function imprimeIdade() {
+        //     for (let idade = 30; idade <= 40; idade += 1) {
+        //       console.log('Idade dentro do for:', idade)
+        //     }
+        //   }
+        //   imprimeIdade()
 
 //*CONCLUÍDO*
 
@@ -18,14 +18,14 @@
 // Copie o código a seguir e rode-o para verificar sua saída.
 
 // Executando esse código, recebe-se um erro `TypeError: Assignment to constant variable.`
-// const pessoa = {
-//     nome: 'Henri',
-//     idade: 20
-// }
-// pessoa["nome"] = 'Luna'
-// pessoa["idade"] = '19'// Altere essa estrutura para corrigir o erro.
-// console.log('Nome:', pessoa.nome);
-// console.log('Idade:', pessoa.idade);
+        // const pessoa = {
+        //     nome: 'Henri',
+        //     idade: 20
+        // }
+        // pessoa["nome"] = 'Luna'
+        // pessoa["idade"] = '19'// Altere essa estrutura para corrigir o erro.
+        // console.log('Nome:', pessoa.nome);
+        // console.log('Idade:', pessoa.idade);
 
 //*CONCLUÍDO*
 
@@ -33,9 +33,9 @@
 // Modifique a variável para que não ocorra Erro.
 // Copie o código a seguir e rode-o para verificar sua saída.
 
-// let favoriteFood = 'Lasanha';
-// favoriteFood = 'Hambúrguer';
-// console.log(favoriteFood);
+        // let favoriteFood = 'Lasanha';
+        // favoriteFood = 'Hambúrguer';
+        // console.log(favoriteFood);
 
 //*CONCLUÍDO*
 
@@ -44,16 +44,16 @@
 
 // Copie o código a seguir.
 
-// const name = 'Adriana';
-// const lastName = 'Soares';
-// console.log('Olá' + ',' + name + ' ' + lastName + '!');
-// function soma(a,b) {
-//   let resultado = a + b;
-//   return resultado;
-// }
-// let a = 3;
-// let b = 5;
-// console.log(`O resultado da soma de ${a} + ${b} é: ${soma(a,b)}`);
+        // const name = 'Adriana';
+        // const lastName = 'Soares';
+        // console.log('Olá' + ',' + name + ' ' + lastName + '!');
+        // function soma(a,b) {
+        //   let resultado = a + b;
+        //   return resultado;
+        // }
+        // let a = 3;
+        // let b = 5;
+        // console.log(`O resultado da soma de ${a} + ${b} é: ${soma(a,b)}`);
 
 //*CONCLUÍDO*
 
@@ -64,7 +64,17 @@
 // Copie o código a seguir.
 
 
-numeroAleatorio = () => Math.random()
-console.log(numeroAleatorio());
+        // numeroAleatorio = () => Math.random()
+        // console.log(numeroAleatorio());
 
 //*CONCLUÍDO*
+
+
+
+// 🚀 Transforme a função hello em uma arrow function.
+// Copie o código a seguir.
+
+hello = (nome) =>
+     `Olá, ${nome}!`
+let nome = 'Ivan';
+console.log(hello(nome));
