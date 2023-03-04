@@ -19,8 +19,48 @@
 //2 – Crie uma função que calcule a área de um círculo
 //Sua fórmula (A = π r²)
 
-let circleArea = (raid) => {
-    let area = 3.14 * (raid ** 2);
-    return `A área do circulo é ${area}`
+            // let circleArea = (raid) => {
+            //     let area = 3.14 * (raid ** 2);
+            //     return `A área do circulo é ${area}`
+            // }
+            // console.log(circleArea(4))
+
+
+//3 – Crie uma função que receba uma frase como parâmetro e retorne a maior palavra da frase
+
+// Exemplo:
+//   longestWord('Antônio foi ao banheiro e não sabemos o que aconteceu') // retorna 'aconteceu'
+
+// De olho na dica 👀: Nesse exercício, será necessário utilizar os conhecimentos sobre array, método split e loop for/of.
+
+// Bônus (opcional): Tente fazer o mesmo exercício utilizando o método array.sort().
+
+
+
+/*Exemplo do MDN:
+
+const str = 'The quick brown fox jumps over the lazy dog.';
+
+const words = str.split(' ');
+console.log(words[3]);
+// Expected output: "fox"
+
+const chars = str.split('');
+console.log(chars[8]);
+// Expected output: "k"
+
+const strCopy = str.split();
+console.log(strCopy);
+// Expected output: Array ["The quick brown fox jumps over the lazy dog."] */
+
+let biggestWord = (string) => {
+    let plus = "";
+    let split = string.split(" ")
+    for(let index of split){
+        if(index.length > plus.length){
+            plus = index
+        }
+    }
+    return plus
 }
-console.log(circleArea(4))
+console.log(biggestWord("i don't wanna lose you now"))
