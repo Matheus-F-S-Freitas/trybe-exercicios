@@ -64,3 +64,26 @@ let biggestWord = (string) => {
     return plus
 }
 console.log(biggestWord("i don't wanna lose you now"))
+
+/*
+Tem um pequeno bug, que se você escrever duas palavras com o mesmo tamanho aparece que a primeira é maior
+Esse bug acontece também na solução da Trybe
+
+
+const longestWord = (text) => {
+  const wordArray = text.split(' ');
+  let maxLength = 0;
+  let result = '';
+
+  for (const word of wordArray) {
+      if (word.length > maxLength) {
+          maxLength = word.length;
+          result = word;
+      }
+  }
+
+  return result;
+}
+
+console.log(longestWord('Antonio foi ao banheiro e não sabemos o que aconteceu'));
+*/
