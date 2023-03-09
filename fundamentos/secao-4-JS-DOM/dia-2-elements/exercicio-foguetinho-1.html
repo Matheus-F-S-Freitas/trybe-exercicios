@@ -24,7 +24,6 @@
 <script>
 // Acesse o elemento elementoOndeVoceEsta.
     let elemento = document.getElementById('elementoOndeVoceEsta').innerHTML
-    console.log(elemento)
 // Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
     let elementoPai = document.getElementById('elementoOndeVoceEsta').parentElement.style.color = "green"
 // Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
@@ -32,7 +31,10 @@
 // Acesse o primeiroFilho a partir de pai.
     let filhoDoPai = document.getElementById('pai').firstChild
 // Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta.
+    let firstCriança = document.getElementById('elementoOndeVoceEsta').parentElement// Mostra o elemento pai inteiro
 // Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta.
+    let vocePai = document.getElementById('elementoOndeVoceEsta').parentElement.innerText
+    console.log(vocePai)
 // Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
 // Agora acesse o terceiroFilho a partir de pai.
 </script>
