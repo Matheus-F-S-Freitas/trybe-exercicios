@@ -29,12 +29,12 @@
         let addSection = document.createElement('section');
         let sectionClass = addSection.classList.add('center-content');
         mainContent.appendChild(addSection)
-// 4 .Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+// 4. Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
         let addP = document.createElement('p');
         let pText = document.createTextNode("Meu Deus do céu eu CONSEGUI terminar isso!")
         addP.appendChild(pText)
         addSection.appendChild(addP)
-// 5 .Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
+// 5. Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
         let addSectionL = document.createElement('section');
         let sectionClassL = addSectionL.classList.add('left-content');
         mainContent.appendChild(addSectionL)
@@ -72,10 +72,10 @@
         let classAdd2H3 = add2H3.classList.add('description')
         let classAdd3H3 = add3H3.classList.add('description')
 // Remova a section criada no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
-
+        mainContent.removeChild(addSectionL)
 // Centralize a section criada no passo 6 (aquele que possui a classe right-content).
 // De olho na dica 👀:: Para centralizar a section, basta configurar o margin-right: auto da section;
-
+        
 // Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content) para a cor verde;
 // Remova os dois últimos elementos (nove e dez) da lista criada no passo 8.
     </script>
