@@ -15,16 +15,16 @@
         
       // COLOQUE SEU CÓDIGO AQUI
 // 1. Adicione a tag h1 com o texto TrybeTrip - Agência de Viagens como filho da tag body;
-    let addh1 = document.createElement('h1');
-    let createtxt = document.createTextNode("TrybeTrip - Agência de Viagens")
-    addh1.appendChild(createtxt)
-    let body = document.querySelector("body");
-    body.appendChild(addh1)
+        let addh1 = document.createElement('h1');
+        let createtxt = document.createTextNode("TrybeTrip - Agência de Viagens")
+        addh1.appendChild(createtxt)
+        let body = document.querySelector("body");
+        body.appendChild(addh1)
 
 // 2. Adicione a tag main com a classe main-content como filho da tag body;
-    let mainContent = document.createElement('main');
-    let createClass = mainContent.classList.add('main-content')
-    body.appendChild(mainContent)
+        let mainContent = document.createElement('main');
+        let createClass = mainContent.classList.add('main-content')
+        body.appendChild(mainContent)
 // 3. Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
         let addSection = document.createElement('section');
         let sectionClass = addSection.classList.add('center-content');
@@ -66,7 +66,7 @@
         mainContent.appendChild(add3H3)
 // Após criar as tags anteriores, você mostrou para a sua liderança como estava a estrutura inicial da página. Sua liderança então pediu para que você fizesse algumas alterações:
 // Adicione a classe title na tag h1 criada;
-
+        let classAddh1 = addh1.classList.add('title')
 // Adicione a classe description nas 3 tags h3 criadas;
 
 // Remova a section criada no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
