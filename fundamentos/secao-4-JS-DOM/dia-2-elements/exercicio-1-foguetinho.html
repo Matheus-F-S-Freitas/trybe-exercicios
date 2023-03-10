@@ -31,7 +31,7 @@
         mainContent.appendChild(addSection)
 // 4 .Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
         let addP = document.createElement('p');
-        let pText = document.createTextNode("Meu Deus do céu como eu to aprendendo!")
+        let pText = document.createTextNode("Meu Deus do céu eu CONSEGUI terminar isso!")
         addP.appendChild(pText)
         addSection.appendChild(addP)
 // 5 .Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
@@ -58,7 +58,24 @@
         }
         addSectionR.appendChild(uList)
 // 9. Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+        let add1H3 = document.createElement('h3')
+        let add2H3 = document.createElement('h3')
+        let add3H3 = document.createElement('h3')
+        mainContent.appendChild(add1H3)
+        mainContent.appendChild(add2H3)
+        mainContent.appendChild(add3H3)
+// Após criar as tags anteriores, você mostrou para a sua liderança como estava a estrutura inicial da página. Sua liderança então pediu para que você fizesse algumas alterações:
+// Adicione a classe title na tag h1 criada;
 
+// Adicione a classe description nas 3 tags h3 criadas;
+
+// Remova a section criada no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
+
+// Centralize a section criada no passo 6 (aquele que possui a classe right-content).
+// De olho na dica 👀:: Para centralizar a section, basta configurar o margin-right: auto da section;
+
+// Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content) para a cor verde;
+// Remova os dois últimos elementos (nove e dez) da lista criada no passo 8.
     </script>
 
 </html>
